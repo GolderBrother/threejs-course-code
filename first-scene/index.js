@@ -44,5 +44,5 @@ const scene = new THREE.Scene();
   document.body.append(renderer.domElement);
 
 //   监听了 canvas 元素的 pointer、contextmenu、wheel 等鼠标事件，内部修改 camara 参数就可以
-//   const controls = new OrbitControls(camera, renderer.domElement);
+  const controls = new OrbitControls(camera, renderer.domElement);
 }
