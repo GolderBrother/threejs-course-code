@@ -1,8 +1,8 @@
 import * as THREE from 'three';
 
 const group = new THREE.Group();
-const color1 = new THREE.Color('yellow');
-const color2 = new THREE.Color('blue');
+const color1 = new THREE.Color('blue');
+const color2 = new THREE.Color('red');
 for (let i = 1; i <= 21; i++) {
     const shape = new THREE.Shape();
     shape.absarc(0, 0, i * 50, 0, Math.PI * 2);
